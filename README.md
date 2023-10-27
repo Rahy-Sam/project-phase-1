@@ -17,7 +17,7 @@
 
 * It sets the text content of the list item to the menu.item value. This assumes that menuData contains objects with an item property.
 
-* It adds an event listener to the list item. When this item is clicked, it calls a function displayMenu(menu).This function displays more details about the selected menu item.
+* It adds an event listener to the list item. When this item is clicked, it calls a function displayMenuList(menu).This function displays more details about the selected menu item.
 
 * Finally, it appends the list item to the menuList element, which was selected earlier.
 * The displaymenuList function is responsible for displaying detailed information about a menu item when a menu item is clicked
