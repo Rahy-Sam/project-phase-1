@@ -39,7 +39,7 @@ function displayMenu (menuData){
 
 }
 
-function displaymenuList(menu){
+function displayMenu(menu){
     const menuDetails = document.querySelector("#menu-details")
     menuDetails.innerHTML=`
     

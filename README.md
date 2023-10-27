@@ -8,19 +8,19 @@
 * It sends a GET request to the specified URL.
 -When the response is received, it parses the response as JSON using .json().
 -Once the data has been successfully parsed, it updates the menu array with the data by spreading it into the array (i.e., [...data]).
--It calls a function displayMenu with the updated menu array as an argument. This function is presumably responsible for rendering or displaying the menu in the user interface.
+-It calls a function displayMenu() with the updated menu array as an argument. This function is presumably responsible for rendering or displaying the menu in the user interface.
 -Finally, it logs the updated menu array to the console.
-* The displayMenu function is used to render the menu items on the web page based on the menuData provided as an argument
+* The displayMenu() function is used to render the menu items on the web page based on the menuData provided as an argument
 - It first selects an HTML element with the ID "menu-list" using document.getElementById("menu-list"). This is presumably the element where the menu items will be displayed.
 - Then, it iterates through each item in the menuData array using forEach. For each item in the menu by:
 * It creates a new list item element using document.createElement("li").
 
 * It sets the text content of the list item to the menu.item value. This assumes that menuData contains objects with an item property.
 
-* It adds an event listener to the list item. When this item is clicked, it calls a function displaymenuList(menu). It appears to be a typo; it should be displayMenu instead of displaymenuList. This function probably displays more details about the selected menu item.
+* It adds an event listener to the list item. When this item is clicked, it calls a function displayMenu(menu).. This function displays more details about the selected menu item.
 
 * Finally, it appends the list item to the menuList element, which was selected earlier.
-* The displaymenuList function is responsible for displaying detailed information about a menu item when a menu item is clicked
+* The displayMenu() function is responsible for displaying detailed information about a menu item when a menu item is clicked
 - It selects an HTML element with the ID "menu-details" using document.querySelector("#menu-details"). This is where the detailed menu information will be displayed.
 - It uses the innerHTML property to set the content of the "menu-details" element. The content is constructed using a template literal, and it includes:
   * An image with the source specified by menu.image.
@@ -37,7 +37,7 @@
 
 -It logs the item to the console.
 
--It makes a PATCH request to update the quantity of the selected menu item on the server. It sends the updated quantity by subtracting 1 from the original item.qnty value. The fetch request is made to http://localhost:3000/menu/{item.id}, which presumably updates the server data.
+-It makes a PATCH request to update the quantity of the selected menu item on the server. It sends the updated quantity by subtracting 1 from the original item.qnty value. The fetch request is made to http://localhost:3000/menu/{item.id}, which updates the server data.
 
 # The link used to the project webpage
 http://127.0.0.1:5500/index.html
