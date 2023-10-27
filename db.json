@@ -1,0 +1,52 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "item": "Spaghetti Bolognese",
+      "description": "It consists of spaghetti served with a sauce made from tomatoes, minced beef, garlic, wine and herbs; sometimes minced beef can be replaced by other minced meats",
+      "price": "$15.99",
+      "image": "https://www.sprinklesandsprouts.com/wp-content/uploads/2019/04/Authentic-Spaghetti-Bolognese-SQ.jpg",
+      "qnty": 112
+    },
+    {
+      "id": "2",
+      "item": "Grilled Salmon",
+      "description": "Seasoned salmon fillets with lemon pepper, garlic powder, and salt",
+      "price": "$18.99",
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2020/05/Grilled-Salmon-015-1.jpg",
+      "qnty": 13
+    },
+    {
+      "id": "3",
+      "item": "Margherita Pizza",
+      "description": "Pizza margherita, as the Italians call it, is a simple pizza hailing from Naples",
+      "price": "$12.99",
+      "image": "https://images.prismic.io/eataly-us/ed3fcec7-7994-426d-a5e4-a24be5a95afd_pizza-recipe-main.jpg?auto=compress,format",
+      "qnty": 11
+    },
+    {
+      "id": "4",
+      "item": "Risotto",
+      "description": "an Italian dish made by cooking a starchy, short grain rice like arborio with stock until it becomes creamy",
+      "price": "$12.99",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Crab-and-saffron-risotto-3360182.jpg?resize=768,574",
+      "qnty": 11
+    },
+    {
+      "id": "5",
+      "item": "Lasagna",
+      "description": " A rich and creamy whole-wheat pasta dish filled layer by layer with refreshingly fresh onions and garlic, lathered in a succulent sauce and topped with imported, premium quality mozzarella",
+      "price": "$12.99",
+      "image": "https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg",
+      "qnty": 14
+    },
+    {
+      "id": "6",
+      "item": "Osso buco",
+      "description": "hin steak, including the bone and marrow, braised very slowly with vegetables, tomatoes, white wine and herbs",
+      "price": "$12.99",
+      "image": "https://www.foodnetwork.com/content/dam/images/food/fullset/2008/1/31/0/italiancooking_ossobucco.jpg",
+      "qnty": 13
+    }
+  ]
+}
