@@ -8,7 +8,7 @@
 * It sends a GET request to the specified URL.
 -When the response is received, it parses the response as JSON using .json().
 -Once the data has been successfully parsed, it updates the menu array with the data by spreading it into the array (i.e., [...data]).
--It calls a function displayMenu() with the updated menu array as an argument. This function is presumably responsible for rendering or displaying the menu in the user interface.
+-It calls a function displayMenu with the updated menu array as an argument. This function is presumably responsible for rendering or displaying the menu in the user interface.
 -Finally, it logs the updated menu array to the console.
 * The displayMenu() function is used to render the menu items on the web page based on the menuData provided as an argument
 - It first selects an HTML element with the ID "menu-list" using document.getElementById("menu-list"). This is presumably the element where the menu items will be displayed.
@@ -17,7 +17,7 @@
 
 * It sets the text content of the list item to the menu.item value. This assumes that menuData contains objects with an item property.
 
-* It adds an event listener to the list item. When this item is clicked, it calls a function displayMenu(menu).. This function displays more details about the selected menu item.
+* It adds an event listener to the list item. When this item is clicked, it calls a function displayMenuList(menu).This function displays more details about the selected menu item.
 
 * Finally, it appends the list item to the menuList element, which was selected earlier.
 * The displayMenu() function is responsible for displaying detailed information about a menu item when a menu item is clicked
@@ -38,6 +38,7 @@
 -It logs the item to the console.
 
 -It makes a PATCH request to update the quantity of the selected menu item on the server. It sends the updated quantity by subtracting 1 from the original item.qnty value. The fetch request is made to http://localhost:3000/menu/{item.id}, which updates the server data.
+* Remember to run the json-server before running the website
 
 # The link used to the project webpage
 http://127.0.0.1:5500/index.html
