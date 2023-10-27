@@ -38,6 +38,7 @@
 -It logs the item to the console.
 
 -It makes a PATCH request to update the quantity of the selected menu item on the server. It sends the updated quantity by subtracting 1 from the original item.qnty value. The fetch request is made to http://localhost:3000/menu/{item.id}, which presumably updates the server data.
+* Remember to run the json-server before running the website
 
 # The link used to the project webpage
 http://127.0.0.1:5500/index.html
