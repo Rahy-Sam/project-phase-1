@@ -39,7 +39,7 @@ function displayMenu (menuData){
 
 }
 
-function displayMenu(menu){
+function displaymenuList(menu){
     const menuDetails = document.querySelector("#menu-details")
     menuDetails.innerHTML=`
     
@@ -47,7 +47,8 @@ function displayMenu(menu){
     <img src="${menu.image}"class="card-img-top">
     <h2> Menu-Title:${menu.item}</h2>
     <p> Price:${menu.price}</p>
-    <p> quantity available:${menu.qnty}</P>
+    <p> quantity available:${menu.qnty}</p>
+    <p> description:${menu.description}</p>
     <button id="btn-buy">BUY</button>
   </div>`
 
